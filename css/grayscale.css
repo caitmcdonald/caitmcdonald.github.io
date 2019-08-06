@@ -206,12 +206,36 @@
     width: 30%;
   }
 }
+
 .publications-section {
-  padding-top: 10rem;
+  padding: 10rem 0;
 }
 
-.publications-section p {
-  margin-bottom: 5rem;
+.publications-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .publications-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+
+.publications-section .publication-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .publications-section .publication-text {
+    padding: 5rem;
+  }
+  .publications-section .publication-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
 }
 
 .contact-section {
