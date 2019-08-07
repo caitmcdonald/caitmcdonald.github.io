@@ -167,17 +167,17 @@
 }
 
 .about-section {
-  padding-top: 0rem;
+  padding-top: 3rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
 .about-section p {
-  margin-bottom: -rem;
+  margin-bottom: 0rem;
 }
 
 .projects-section {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .projects-section .featured-text {
@@ -229,7 +229,7 @@
 
 @media (min-width: 992px) {
   .publications-section .publication-text {
-    padding: 5rem;
+    padding: 3rem;
   }
   .publications-section .publication-text hr {
     border-color: #64a19d;
@@ -249,7 +249,7 @@
 }
 
 .contact-section {
-  padding: 5rem 0 0;
+  padding: 3rem 0 0;
 }
 
 .contact-section .card {
